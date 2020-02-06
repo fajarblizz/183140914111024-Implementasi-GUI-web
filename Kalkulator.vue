@@ -1,12 +1,5 @@
 <template>
  <div class="container">
-        <h1 class="text-center">Kalkulator Sederhana</h1>
-    <form  class="text-center" style="margin-top: 10%">
-        <h1 class="text-center">Penjumlahan</h1>
-        <input type="number" v-model.number="angka_1"> +
-        <input type="number" v-model.number="angka_2">
-    </form>
-  <h2 class="text-center">{{ angka_1 + angka_2}}</h2>
 
   <form  class="text-center" style="margin-top: 5%">
         <h1 class="text-center">Pengurangan</h1>
@@ -28,6 +21,7 @@
         <input type="text" v-model.number="angka_8">
     </form>
   <h2 class="text-center">{{ angka_7 * angka_8}}</h2>
+  <h1 class="text-center">Kalkulator Kotak</h1>
  </div>
 </template>
 
@@ -37,7 +31,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffd700;
+  color: #ffffff;
   margin-top: 60px;
   background-color: rgb(0, 0, 0);
 }
